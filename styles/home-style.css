@@ -6,6 +6,10 @@
     opacity: 0.75;
 }
 
+p {
+    color: #36454f;
+}
+
 h2 {
     color: #36454f;
 }
@@ -136,9 +140,5 @@ textarea:hover {
 
     h1 {
         font-size: 2.5rem;
-    }
-
-    .tooltip {
-        display: none;
     }
 }

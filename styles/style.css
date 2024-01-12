@@ -136,9 +136,6 @@ footer {
 }
 
 .span {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-end;
     font-size: 36px !important;
     cursor:pointer;
     color: #fff;
