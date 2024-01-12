@@ -112,7 +112,7 @@ footer {
 
 .span {
     font-size: 36px !important;
-    cursor:pointer;
+    cursor: pointer;
     color: #ff7f50;
 }
 
@@ -186,12 +186,5 @@ p {
 
     .footer-diagonal-split-background {
         padding: 2rem 1.5rem 1.5rem 1.5rem;
-    }
-
-    .span {
-        position: absolute;
-        right: 0;
-        top: 0;
-        padding: 1rem;
     }
 }

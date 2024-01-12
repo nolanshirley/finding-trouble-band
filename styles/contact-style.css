@@ -137,4 +137,8 @@ textarea:hover {
     h1 {
         font-size: 2.5rem;
     }
+
+    .tooltip {
+        display: none;
+    }
 }
