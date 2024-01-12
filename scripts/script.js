@@ -57,7 +57,7 @@ function outFunc() {
 }
 
 function onEmailButtonClick() {
-    navigator.clipboard.writeText("keeponcomplaining@gmail.com");
+    navigator.clipboard.writeText("findingtroubleband@gmail.com");
     var tooltip = document.getElementById("myTooltip");
     tooltip.innerHTML = "Copied!";
 }
