@@ -1,8 +1,13 @@
 .diagonal-split-background {
-    background-color: #800020;
+    background-color: #ff7f50;
     color: white;
     clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
     padding: 2.5rem;
+    opacity: 0.75;
+}
+
+h2 {
+    color: #36454f;
 }
 
 .input-div {

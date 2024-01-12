@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Noto Sans Inscriptional Pahlavi
+- Font Author: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/inscriptional-pahlavi)
+- Font Source: http://fonts.gstatic.com/s/notosansinscriptionalpahlavi/v16/ll8UK3GaVDuxR-TEqFPIbsR79Xxz9WEKbwsjpz7VklYlC7FCVtqVOAYK0QA.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))
