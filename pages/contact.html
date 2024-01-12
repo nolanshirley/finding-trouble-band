@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us Page</title>
+    <link rel="stylesheet" href="styles/contact-style.css">
+</head>
+<body>
+    <div class="diagonal-split-background">
+        <div style="display:flex;align-items: center; justify-content: center;">
+            <h2>
+                Contact Us 
+            </h2>
+            <div class="tooltip">
+                <button onclick="onEmailButtonClick()" onmouseout="outFunc()" class="email-button" id="emailButton" alt="email"> 
+                    <span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
+                    keeponcomplaining@gmail.com
+                </button>
+            </div>
+        </div>
+        <form action="mailto:keeponcomplaining@gmail.com" method="post" enctype="text/plain">
+            <div class="input-div">
+                <div>
+                    Name
+                </div>
+                <input placeholder="Name" label="name" type="text" name="name">
+            </div>
+            <div class="input-div">
+                <div>
+                    Email
+                </div>
+                <input placeholder="Email" label="email" type="text" name="email">
+            </div>
+            <div class="input-div">
+                <div>
+                    Message
+                </div>
+                <textarea placeholder="Message" name="Message" rows="2" cols="16"></textarea>
+            </div>
+            <input class="submit-button" type="submit" value="Send">
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,13 @@
+.diagonal-split-background {
+    background-color: #800020;
+    color: white;
+    clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+    padding: 5rem;
+}
+
+@media (max-width: 767px) {
+    .diagonal-split-background {
+        padding: 2.5rem;
+        clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+    }
+}

@@ -1,0 +1,139 @@
+.diagonal-split-background {
+    background-color: #800020;
+    color: white;
+    clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+    padding: 2.5rem;
+}
+
+.input-div {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 0.5rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+}
+
+input {
+    padding: 0.5rem;
+    border: 2px solid #36454f;
+    box-shadow: 2px 2px 0 0 #b0e0e6;
+    transition: all 0.2s ease-in-out;
+}
+
+input:hover {
+    border: 2px solid #36454f;
+    box-shadow: 0 0 4px 4px #b0e0e6;
+    transition: all 0.5s ease-in-out;
+}
+
+textarea {
+    padding: 0.5rem;
+    border: 2px solid #36454f;
+    box-shadow: 2px 2px 0 0 #b0e0e6;
+    transition: all 0.1s ease-in-out;
+}
+
+textarea:hover {
+    border: 2px solid #36454f;
+    box-shadow: 0 0 4px 4px #b0e0e6;
+    transition: all 0.25s ease-in-out;
+}
+
+.submit-button {
+    margin: 0.1rem 1rem 1rem 1rem;
+    background-color: #ffffff;
+    color: #36454f;
+    border: none;
+    padding: 0.5rem;
+    cursor: pointer;
+    font-weight: 700;
+    letter-spacing: 0.4px;
+    border: 2px solid #36454f;
+    box-shadow: 4px 4px 0 0 #b0e0e6;
+    transition: all 0.2s ease-in-out;
+}
+
+.submit-button:hover {
+    border: 2px solid #36454f;
+    box-shadow: 0 0 4px 4px #b0e0e6;
+    transition: all 0.5s ease-in-out;
+}
+
+.email-button {
+    margin: 1.75rem 0.5rem 0.5rem 0.5rem;;
+    background-color: #ffffff;
+    color: #36454f;
+    border: none;
+    padding: 0.5rem;
+    cursor: pointer;
+    font-weight: 700;
+    letter-spacing: 0.4px;
+    border: 2px solid #36454f;
+    box-shadow: 4px 4px 0 0 #b0e0e6;
+    transition: all 0.2s ease-in-out;
+}
+
+.email-button:hover {
+    border: 2px solid #36454f;
+    box-shadow: 0 0 4px 4px #b0e0e6;
+    transition: all 0.5s ease-in-out;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 140px;
+    background-color: #fff;
+    color: #36454f;
+    text-align: center;
+    border-radius: 2px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 75%;
+    right: 10%;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #fff transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+@media (max-width: 767px) {
+    .diagonal-split-background {
+        padding: 1.5rem;
+        clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    .tooltip {
+        display: none;
+    }
+}
