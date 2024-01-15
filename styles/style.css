@@ -19,6 +19,10 @@ body {
     color: #fff;
 }
 
+.landing-image {
+    border-color: #ff7f50;
+}
+
 .landing-title {
     font-weight: 600;
     margin: 0;

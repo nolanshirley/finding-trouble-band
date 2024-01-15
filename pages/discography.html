@@ -7,44 +7,21 @@
     <link rel="stylesheet" href="styles/discography-style.css">
 </head>
 <body>
-    <div class="diagonal-split-background body-div">
-        <div class="card">
-            <h3>
-                Play Our Latest Recordings
-            </h3>
-            <div class="song-div">
-                <div class="song-div">
-                    <h4 id="songTitle"> Have Your Ever Seen The Rain</h4>
-                    <audio controls autoplay>
-                        <source src="song-files/HaveYourEverSeenTheRain.mp3" type="audio/mpeg">
-                        Your browser does not support the audio element.
-                    </audio>
-                </div>
-                <div class="song-div">
-                    <h4 id="songTitle"> Bad Moon Rising </h4>
-                    <audio controls>
-                        <source src="song-files/BadMoonRising.mp3" type="audio/mpeg">
-                        Your browser does not support the audio element.
-                    </audio>
-                </div>
-            </div>
+    <h2>
+        CHECK OUT OUR LATEST COVERS!
+    </h2>
+    <section class="flex flex-column md:flex-row align-items-center justify-content-center m-1 mr-3 md:m-4 h-30rem md:h-full">
+        <div class="w-11 h-full md:h-19rem md:w-30rem lg:h-21rem mb-4 md:mb-0 md:mr-4 flipleft animation-duration-1000 animation-iteration-1">
+            <iframe class="w-12 h-full" title="Finding Trouble - Riders on the Storm Cover"
+                src="https://www.youtube.com/embed/9dKH1KHK1Ow">
+            </iframe>
         </div>
-        <!-- <div class="button-div" id="toggle-button">
-            <div id="stop-button">
-                <svg fill="#b0e0e6" height="50px" width="50px" version="1.1" id="Icons" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
-                    viewBox="0 0 32 32" xml:space="preserve">
-                    <path d="M23,8H9C8.4,8,8,8.4,8,9v14c0,0.6,0.4,1,1,1h14c0.6,0,1-0.4,1-1V9C24,8.4,23.6,8,23,8z"/>
-                </svg>
-            </div>
-            <div id="play-button">
-                <svg fill="#b0e0e6" height="50px" width="50px" version="1.1" id="Icons" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
-                    viewBox="0 0 32 32" xml:space="preserve">
-                    <path d="M21.6,15.2l-9-7c-0.3-0.2-0.7-0.3-1.1-0.1C11.2,8.3,11,8.6,11,9v14c0,0.4,0.2,0.7,0.6,0.9C11.7,24,11.9,24,12,24
-                        c0.2,0,0.4-0.1,0.6-0.2l9-7c0.2-0.2,0.4-0.5,0.4-0.8S21.9,15.4,21.6,15.2z"/>
-                </svg>
-            </div>
-        </div> -->
-    </div>
+        <div class="w-11 h-full md:h-19rem md:w-30rem lg:h-21rem mb-4 md:mb-0 flipright animation-duration-1000 animation-iteration-1">
+            <iframe class="w-12 h-full" title="Finding Trouble - Drive My Car Cover"
+                src="https://www.youtube.com/embed/Pmu8c-7_0M4">
+            </iframe>
+        </div>
+    </section>
     <script src="scripts/discography-script.js"></script>
 </body>
 </html>
