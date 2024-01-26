@@ -20,11 +20,11 @@
     <link rel="stylesheet" href="https://unpkg.com/primeflex@latest/primeflex.css">
 </head>
 <body>
-    <header class="m-3 top-0 left-0 flex flex-row w-full align-items-center justify-content-between">
-        <h1 class="landing-title font-bold text-5xl md:text-7xl">Finding Trouble</h1>
+    <header class="top-0 left-0 flex flex-row w-full align-items-center justify-content-between">
+        <h1 class="landing-title font-bold text-5xl md:text-7xl m-3">Finding Trouble</h1>
         <div class="hidden md:block"></div>
-        <div class="mr-3">
-            <span onclick="openNav()" class="material-symbols-sharp span mr-3">
+        <div class="m-3">
+            <span onclick="openNav()" class="material-symbols-sharp span m-3">
                 menu
             </span>
         </div>
@@ -37,10 +37,10 @@
             <a href="#/contact" onclick="closeNav()">Contact Us</a>
         </div>
     </div>
-    <section class="m-3">
+    <section>
         <div class="flex flex-column align-items-center justify-content-center m-2 ml-3">
             <h3 class="front-text text-2xl">
-                Book us for 2024! Please call <a class="phone-number text-3xl underline" title="Phone Number" href="tel:317-864-2003">317-864-2003</a>
+                Book us for 2024! Please call<a class="phone-number text-3xl underline" title="Phone Number" href="tel:317-864-2003">317-864-2003</a>
             </h3>
             <div class="flex flex-column align-items-center mx-2">
                 <h3 class="front-text text-2xl">
@@ -106,26 +106,25 @@
     <div class="content" id="content">
     </div>
     <footer class="footer-diagonal-split-background">
-            <div class="flex flex-column align-items-center">
-                <div class="mb-2">
-                    <a title="Youtube Link" href="https://youtube.com/@FindingTrouble?si=EJ-9ozgUwZW5opKV">
-                        <i class="fa-brands fa-youtube fa-2xl"></i>
-                    </a>
-                    <a title="Facebook Link" href="https://www.facebook.com/profile.php?id=61555641383119">
-                        <i class="fa-brands fa-facebook fa-2xl"></i>
-                    </a>
-                    <a title="Phone Number" href="tel:317-864-2003">
-                        <i class="fa-solid fa-phone fa-xl"></i>
-                    </a>
+        <div class="flex flex-column align-items-center">
+            <div class="mb-2">
+                <a title="Youtube Link" href="https://youtube.com/@FindingTrouble?si=EJ-9ozgUwZW5opKV">
+                    <i class="fa-brands fa-youtube fa-2xl"></i>
+                </a>
+                <a title="Facebook Link" href="https://www.facebook.com/profile.php?id=61555641383119">
+                    <i class="fa-brands fa-facebook fa-2xl"></i>
+                </a>
+                <a title="Phone Number" href="tel:317-864-2003">
+                    <i class="fa-solid fa-phone fa-xl"></i>
+                </a>
+            </div>
+            <div class="flex flex-row align-items-center">
+                <div class="mr-1 mt-1">
+                    &#169;
                 </div>
-                <div class="flex flex-row align-items-center">
-                    <div class="mr-1 mt-1">
-                        &#169;
-                    </div>
-                    <span id="year">
-                    </span>,
-                    All Rights Reserved
-                </div>
+                <span id="year">
+                </span>,
+                All Rights Reserved
             </div>
         </div>
     </footer>
